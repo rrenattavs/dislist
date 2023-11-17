@@ -49,11 +49,11 @@ public class Game {
 		this.longDescription = longDescription;
 	}
 
-	public Long getIdLong() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setIdLong(Long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
