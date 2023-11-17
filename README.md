@@ -28,8 +28,7 @@
 </div>
 <h3>application-test.properties</h3>
 <div>
-	<pre class="notranslate"><code>
-# H2 Connection
+	<pre class="notranslate"><code># H2 Connection
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.username=sa
 spring.datasource.password=
@@ -45,22 +44,19 @@ spring.jpa.properties.hibernate.format_sql=true
 
   <h3>application-prod.properties</h3>
  <div>
-	 <pre class="notranslate">
-		 <code>#spring.jpa.properties.jakarta.persistence.schema-generation.create-source=metadata
-			#spring.jpa.properties.jakarta.persistence.schema-generation.scripts.action=create
-			#spring.jpa.properties.jakarta.persistence.schema-generation.scripts.create-target=create.sql
-			#spring.jpa.properties.hibernate.hbm2ddl.delimiter=;
+	 <pre class="notranslate"><code>#spring.jpa.properties.jakarta.persistence.schema-generation.create-source=metadata
+#spring.jpa.properties.jakarta.persistence.schema-generation.scripts.action=create
+#spring.jpa.properties.jakarta.persistence.schema-generation.scripts.create-target=create.sql
+#spring.jpa.properties.hibernate.hbm2ddl.delimiter=;
 			
-			spring.datasource.url=jdbc:postgresql://localhost:5432/dscatalog
-			spring.datasource.username=postgres
-			spring.datasource.password=1234567
+spring.datasource.url=jdbc:postgresql://localhost:5432/dscatalog
+spring.datasource.username=postgres
+spring.datasource.password=1234567
 			
-			spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
-			spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
-			spring.jpa.hibernate.ddl-auto=none
-		</code>
-	</pre>
- </div>
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.jpa.hibernate.ddl-auto=none
+</code></pre></div>
  
   <h3>system.properties</h3>
  <div>
